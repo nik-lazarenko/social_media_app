@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "483980819334",
+    "project_id": "social-media-test-app-350d5",
+    "storage_bucket": "social-media-test-app-350d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483980819334:android:6a175696e0fdb930c10a07",
+        "android_client_info": {
+          "package_name": "com.nikitalazarenko.social_media_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483980819334-01p9p3nktmagcb8j606ld6e29eb5mrgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkW32HHmDgeki9I80ucNzJdEvRLsrou8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483980819334-01p9p3nktmagcb8j606ld6e29eb5mrgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
