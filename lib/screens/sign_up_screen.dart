@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:social_media_app/bloc/auth_cubit.dart';
-import 'package:social_media_app/screens/posts_screen.dart';
 import 'package:social_media_app/screens/sign_in_screen.dart';
 
 class SignUpScreen extends StatefulWidget {
@@ -58,8 +57,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
         listener: (prevState, currState) {
           if (currState is AuthSignedUp) {
 
-            Navigator.of(context)
-                .pushReplacementNamed(PostsScreen.id);
+            //  Navigator.of(context)
+            //    .pushReplacementNamed(PostsScreen.id);
           }
           if (currState is AuthFailure) {
             ScaffoldMessenger.of(context).showSnackBar(SnackBar(

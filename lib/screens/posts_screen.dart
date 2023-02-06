@@ -8,7 +8,6 @@ import 'package:social_media_app/bloc/auth_cubit.dart';
 import 'package:social_media_app/models/post_model.dart';
 import 'package:social_media_app/screens/chat_screen.dart';
 import 'package:social_media_app/screens/create_post_screen.dart';
-import 'package:social_media_app/screens/sign_in_screen.dart';
 
 class PostsScreen extends StatefulWidget {
   static const String id = "posts_screen";
@@ -43,9 +42,10 @@ class _PostsScreenState extends State<PostsScreen> {
               icon: Icon(Icons.add)),
           IconButton(
               onPressed: () {
-                context.read<AuthCubit>().signOut().then((_) =>
-                    Navigator.of(context)
-                        .pushReplacementNamed(SignInScreen.id));
+                context.read<AuthCubit>().signOut();
+                    // .then((_) =>
+                    // Navigator.of(context)
+                    //     .pushReplacementNamed(SignInScreen.id));
               },
               icon: Icon(Icons.logout))
         ],

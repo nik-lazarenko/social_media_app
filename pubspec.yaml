@@ -44,6 +44,7 @@ dependencies:
   flutter_bloc: ^8.1.1
   equatable: ^2.0.5
   image_picker: ^0.8.6+1
+  sentry_flutter: ^6.19.0
 
 dev_dependencies:
   flutter_test:
